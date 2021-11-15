@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<title>Articulyze</title>
+		<link rel="stylesheet" href="../../css/style.css">
+
+	</head>
+
+	<body>
+
+		<div class="return">
+			<a href="../../archive.html">&#x2715;</a>
+		</div>
+
+		<div class="project-container">
+       		<div class="project-left">
+       			<div class="wrapper" id="video-wrapper">
+       				<video id="video" style="filter:  opacity(100%); width: 50%;">
+        				<source src="1.mp4" type="video/mp4">
+      				</video>
+      			</div>
+      			<div class="wrapper" id="video-wrapper2">
+      				<video id="video2" style="filter:  opacity(100%); width: 50%;">
+        				<source src="2.mp4" type="video/mp4">
+      				</video>
+      			</div>
+      			<div class="wrapper" id="video-wrapper4">
+       				<video id="video4" style="filter:  opacity(100%); width: 50%;">
+        				<source src="4.mp4" type="video/mp4">
+      				</video>
+      			</div>
+      			<div class="wrapper" id="video-wrapper3">
+      				<video id="video3" style="filter:  opacity(100%); width: 50%;">
+        				<source src="3.mov" type="video/mp4">
+      				</video>
+      			</div> 
+       		</div>
+        	<div class="project-right">
+
+        		<h1>HKU Guild<br>
+        		<span class="meta">06/2020 - 09/2020 // <a class="embedded-link" target="_blank" href="https://www.hkuguild.com">[HKU Guild]</a> <a class="embedded-link" href="#">[John Hadaway]</a></span></h1>
+        		<p>While working at the HKU Guild @ The University of Hong Kong, I was involved with two projects: key visuals for the <a class="embedded-link" target="_blank" href="https://www.hkuguild.com">[HKU Guild]</a> and a collaboration with the Hong Kong Ballet, <a class="embedded-link" target="_blank" href="https://www.hkuguild.com/situation-room/">[The Situation Room]</a>.
+        		</p><br>
+        		
+        	</div>
+
+        	<script>
+      			var viewport = document.getElementById('video-wrapper')
+      			var video = document.getElementById('video')
+      			viewport.addEventListener('mouseover', function() { video.play() }, false);
+      			viewport.addEventListener('mouseout', function() { video.pause() }, false);
+
+      			var viewport = document.getElementById('video-wrapper2')
+      			var video2 = document.getElementById('video2')
+      			viewport.addEventListener('mouseover', function() { video2.play() }, false);
+      			viewport.addEventListener('mouseout', function() { video2.pause() }, false);
+
+      			var viewport = document.getElementById('video-wrapper3')
+      			var video3 = document.getElementById('video3')
+      			viewport.addEventListener('mouseover', function() { video3.play() }, false);
+      			viewport.addEventListener('mouseout', function() { video3.pause() }, false);
+
+      			var viewport = document.getElementById('video-wrapper4')
+      			var video4 = document.getElementById('video4')
+      			viewport.addEventListener('mouseover', function() { video4.play() }, false);
+      			viewport.addEventListener('mouseout', function() { video4.pause() }, false);
+
+
+    		</script>
+    	</div>
+	</body>
+
+</html>
