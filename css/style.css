@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
   text-align: right;
   text-transform: none;
   width: 550px;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #about p {
@@ -277,7 +277,7 @@ a.embedded-link:hover {
 .project-right > p, .project-left > p {
   display: block;
   font-size: 11px;
-  line-height: 18px;
+  line-height: 16px;
   font-weight: 300;
   width: 90%;
   margin-bottom: 0px;
@@ -385,7 +385,7 @@ p > a.embedded-link:hover {
 .project-center > p {
   display: block;
   font-size: 10px;
-  line-height: 18px;
+  line-height: 16px;
   font-weight: 300;
   width: 90%;
   margin-bottom: 0px;
@@ -431,7 +431,7 @@ rgba(160, 65, 130, 1)
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   color: #999;
-  font-size:  18px;
+  font-size:  15px;
 }
 
 p.citation {
