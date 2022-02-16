@@ -25,7 +25,7 @@ body::-webkit-scrollbar {
   text-align: left;
   width: 50px;
   text-transform: none;
-  font-size:  13px;
+  font-size:  11px;
 }
 
 .nav a {
@@ -84,7 +84,7 @@ body::-webkit-scrollbar {
   text-align: right;
   text-transform: none;
   width: 450px;
-  font-size: 13px;
+  font-size: 11px;
 
 }
 
@@ -198,7 +198,7 @@ a.embedded-link:hover {
 .project-container {
   display: flex;
   flex-direction: row;
-  font-size: 13px;
+  font-size: 11px;
   color: #ccc;
 }
 
@@ -267,7 +267,7 @@ a.embedded-link:hover {
 
 .project-right > h1, .project-left > h1 {
   display: block;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
   margin-bottom: 5px;
   width: 90%;
@@ -276,7 +276,7 @@ a.embedded-link:hover {
 
 .project-right > p, .project-left > p {
   display: block;
-  font-size: 13px;
+  font-size: 11px;
   line-height: 18px;
   font-weight: 300;
   width: 90%;
@@ -285,8 +285,8 @@ a.embedded-link:hover {
 }
 
 p > sup {
-  font-size: 10px;
-  line-height: 10px;
+  font-size: 8px;
+  line-height: 8px;
   color: #999;
 }
 
@@ -375,7 +375,7 @@ p > a.embedded-link:hover {
 
 .project-center > h1 {
   display: block;
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 600;
   margin-bottom: 5px;
   width: 90%;
@@ -384,7 +384,7 @@ p > a.embedded-link:hover {
 
 .project-center > p {
   display: block;
-  font-size: 13px;
+  font-size: 10px;
   line-height: 18px;
   font-weight: 300;
   width: 90%;
@@ -435,8 +435,8 @@ rgba(160, 65, 130, 1)
 }
 
 p.citation {
-  font-size: 13px;
-  line-height: 13px;
+  font-size: 11px;
+  line-height: 11px;
   margin-bottom: 10px;
 }
 
