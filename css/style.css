@@ -273,7 +273,7 @@ a.embedded-link:hover {
 	display: none;
 }
 
-.project-right > h1, .project-left > h1 {
+.project-right > h1, .project-left > h1, .project-center > h1 {
 	display: block;
 	font-size: 11px;
 	font-weight: 600;
@@ -282,7 +282,7 @@ a.embedded-link:hover {
 	color: #ccc;
 }
 
-.project-right > p, .project-left > p {
+.project-right > p, .project-left > p, .project-center > p {
 	display: block;
 	font-size: 11px;
 	line-height: 16px;
@@ -361,7 +361,6 @@ p > a.embedded-link:hover {
 	max-width: 100%;
 }
 
-
 .project-center {
 	left: 50%;
 	transform: translate(-50%);
@@ -378,26 +377,6 @@ p > a.embedded-link:hover {
 
 .project-center::-webkit-scrollbar {
 	display: none;
-}
-
-
-.project-center > h1 {
-	display: block;
-	font-size: 11px;
-	font-weight: 600;
-	margin-bottom: 5px;
-	width: 90%;
-	color: #ccc;
-}
-
-.project-center > p {
-	display: block;
-	font-size: 10px;
-	line-height: 16px;
-	font-weight: 300;
-	width: 90%;
-	margin-bottom: 0px;
-	color: #ccc;
 }
 
 .project-center > img {
@@ -497,6 +476,44 @@ p.citation {
 			right:20px; 
 			width: 40%; 
 			filter:opacity(30%);
+		}
+
+		.project-right > h1, .project-left > h1, .project-center > h1 {
+			display: block;
+			font-size: 9px;
+			font-weight: 600;
+			margin-bottom: 0px;
+			width: 90%;
+			color: #ccc;
+		}
+
+		.project-right > p, .project-left > p, .project-center > p {
+			display: block;
+			font-size: 9px;
+			line-height: 13px;
+			font-weight: 300;
+			width: 90%;
+			margin-bottom: 0px;
+			color: #ccc;
+		}
+
+		p > sup {
+			font-size: 6px;
+			line-height: 6px;
+			color: #999;
+		}
+
+
+		.return {
+			position:  fixed;
+			top:  5px;
+			right:  15px;
+			text-align: right;
+			text-transform: none;
+			font-size:  25px;
+			line-height: 25px;
+			margin-top: 0;
+			z-index: 3;
 		}
 
 
