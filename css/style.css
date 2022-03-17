@@ -158,6 +158,24 @@ a.embedded-link:hover {
 	float: right;
 }
 
+.about-pp > img {
+	position:fixed; 
+	bottom:30px; 
+	right:30px; 
+	max-width: 200px; 
+	filter:opacity(90%);
+}
+
+.about-pp-opaque > img {
+	position:fixed; 
+	bottom:30px; 
+	right:30px; 
+	max-width: 200px; 
+	filter:opacity(30%);
+}
+
+
+
 
 
 /* --------- project page --------- */
@@ -453,7 +471,7 @@ p.citation {
 			justify-content: right;
 			text-align: right;
 			text-transform: none;
-			width: 100%;
+			width: 80%;
 			font-size: 9px;
 		}
 
@@ -461,8 +479,24 @@ p.citation {
 			justify-content: right;
 			text-align: right;
 			text-transform: none;
-			width: 100%;
+			width: 80%;
 			font-size: 9px;
+		}
+
+		.about-pp > img {
+			position:fixed; 
+			bottom:20px; 
+			right:20px; 
+			width: 40%; 
+			filter:opacity(90%);
+		}
+
+		.about-pp-opaque > img {
+			position:fixed; 
+			bottom:20px; 
+			right:20px; 
+			width: 40%; 
+			filter:opacity(30%);
 		}
 
 
