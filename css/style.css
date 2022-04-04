@@ -436,7 +436,7 @@ p.citation {
 			text-align: left;
 			width: 50px;
 			text-transform: none;
-			font-size:  9px;
+			font-size:  10px;
 		}
 
 		.content {
@@ -451,7 +451,7 @@ p.citation {
 			text-align: right;
 			text-transform: none;
 			width: 80%;
-			font-size: 9px;
+			font-size: 10px;
 		}
 
 		#about {
@@ -459,7 +459,7 @@ p.citation {
 			text-align: right;
 			text-transform: none;
 			width: 80%;
-			font-size: 9px;
+			font-size: 10px;
 		}
 
 		.about-pp > img {
@@ -480,7 +480,7 @@ p.citation {
 
 		.project-right > h1, .project-left > h1, .project-center > h1 {
 			display: block;
-			font-size: 9px;
+			font-size: 10px;
 			font-weight: 600;
 			margin-bottom: 0px;
 			width: 90%;
@@ -489,7 +489,7 @@ p.citation {
 
 		.project-right > p, .project-left > p, .project-center > p {
 			display: block;
-			font-size: 9px;
+			font-size: 10px;
 			line-height: 13px;
 			font-weight: 300;
 			width: 90%;
