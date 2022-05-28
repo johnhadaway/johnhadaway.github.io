@@ -1,0 +1,58 @@
+---
+---
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="utf-8"/>
+    <title>John Hadaway</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style/default.css">
+
+  </head>
+
+  <body>
+    <span class="corner-nav-tl corner-nav noselect bold-weight">John Hadaway</span>
+    <span class="corner-nav-cl thin-weight corner-nav noselect">
+      <a class="block" href="{{site.baseurl}}/about">About</a>
+      <a class="active block" href="{{site.baseurl}}/projects">Projects</a>
+      <!--
+      <a class="block" href="{{site.baseurl}}/blog">Blog</a>
+      <a class="block" href="{{site.baseurl}}/shelves">Shelves</a>
+      <a class="block" href="{{site.baseurl}}/curiosities">Curiosities</a>
+      -->
+    </span>
+    <span class="corner-nav-bl thin-weight corner-nav noselect">
+      <a class="" href="https://twitter.com/john___hadaway" target="_blank">Twitter&#8599;&#xFE0E;</a>&nbsp;
+      <a href="https://www.linkedin.com/in/john-hadaway-2b6935186/" target="_blank">Linkedin&#8599;&#xFE0E;</a>&nbsp;
+      <a class=""href="mailto:john@johnhadaway.com?subject = [subject]" target="_blank">Email&#8599;&#xFE0E;</a>&nbsp;
+    </span>
+
+    <div class="default-content">
+
+      {% assign projects =  site.projects | reverse %}
+      {% assign i = 0 %}
+
+      <div class="page-container padding-side margin-bottom">
+        <div class="col-50 col-float-middle col-content margin-top">
+        {% for project in projects %}
+          {% if i == 0 %}
+              <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} [{{project.year-completed}}]</b>&nbsp; {{project.description}}. {% if project.display %}<!--<a href="{{project.url}}">See more</a>-->{% elsif project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}</p>
+          {% else %}
+              <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} [{{project.year-completed}}]</b>&nbsp; {{project.description}}. {% if project.display %}<!---<a href="{{project.url}}">See more</a>-->{% elsif project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}</p>
+          {% endif %}
+          {% assign i = i | plus:1 %}
+         {% endfor %}
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+  </body>
+
+</html>
