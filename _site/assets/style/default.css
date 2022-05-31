@@ -215,7 +215,7 @@ body::-webkit-scrollbar {
 
 .md-content > p {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 12px;
     line-height: normal;
     margin-bottom: 1.4rem;
     font-weight: 300;
@@ -223,7 +223,7 @@ body::-webkit-scrollbar {
 
 .md-content > p > em {
     margin-top: 0rem;
-    font-size: 1rem;
+    font-size: 12px;
     font-weight: 200;
 }
 
@@ -245,19 +245,6 @@ body::-webkit-scrollbar {
     margin-bottom: 0.25rem;
 }
 
-.page-title {
-    font-size: 3rem;
-    line-height: normal;
-    margin-bottom: 0rem;
-    text-transform: lowercase;
-}
-
-.page-nav {
-    font-size: 2.5rem;
-    line-height: normal;
-    margin-bottom: 0.4rem;
-}
-
 .page-nav > a {
     text-decoration: none;
     color: #000;
@@ -273,54 +260,9 @@ body::-webkit-scrollbar {
     background-color: #000;
 }
 
-.page-title-description {
-    font-size: 1.4rem;
-    line-height: normal;
-    font-weight: 300;
-    margin-bottom: 1.5rem;
-    text-transform: none;
-}
-
-.page-credits {
-    text-align: left;
-    font-size: 1.2rem;
-    line-height: normal;
-    font-weight: 300;
-}
-
-.page-title-description-s {
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: normal;
-    margin-bottom: 1.5rem;
-    font-weight: 300;
-    text-transform: lowercase;
-}
-
-.page-title-description-xs {
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: normal;
-    margin-bottom: 1.5rem;
-    font-weight: 200;
-    text-transform: lowercase;
-}
-
-.page-question {
-    text-align: left;
-    font-size: 1.8rem;
-    line-height: normal;
-    margin-bottom: 0rem;
-    font-weight: 400;
-    text-transform: lowercase;
-}
-
-.page-title-description > b, .page-credits > b {
-    font-weight: 400;
-}
 
 .content-title {
-    font-size: 1.2rem;
+    font-size: 12px;
     line-height: normal;
     margin-bottom: 0.25rem;
     font-weight: 400;
@@ -328,7 +270,7 @@ body::-webkit-scrollbar {
 }
 
 .content-description {
-    font-size: 0.9rem;
+    font-size: 12px;
     line-height: normal;
     font-weight: 300;
     text-transform: none;
@@ -391,40 +333,13 @@ body::-webkit-scrollbar {
 
 
 /* NAVIGATION */
-.p-nav-text {
-    font-size: 3rem;
-    line-height: normal;
-    margin-top: 0rem;
-    font-weight: 300;
-    text-transform: lowercase;
-}
-
-.highlight {
-    color: #000;
-    text-decoration: none;
-    text-decoration-thickness: 0.075rem;
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: normal;
-}
-
-.highlight:hover {
-    color: #fff;
-    background: #000;
-}
-
-.highlight-active {
-    color: #fff;
-    background: #000;
-    transition: 0.5s;
-}
 
 .corner-nav-br {
   overflow: hidden;
   position: fixed;
   bottom: 1.25rem;
   right: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -433,7 +348,7 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 1.25rem;
   left: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -442,7 +357,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 1.25rem;
   left: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -451,7 +366,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 1.25rem;
   right: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 12px;
   line-height: normal;
 }
 
@@ -472,7 +387,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 25vh;
   left: 1.25rem;
-  font-size: 0.9rem;
+  font-size: 12px;
   line-height: normal;
 }
 
