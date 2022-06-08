@@ -12,7 +12,7 @@ external-url:
 external-url-name:
 return_path: /projects
 display: no
-description: Analysed and visualised spatial data with Fyma AI to generate insights for the Queen Elizabeth Olympic Park in London (LLDC)
+description: Analysed and visualised spatial data with Fyma AI to generate insights about the Queen Elizabeth Olympic Park in London (LLDC)
 
 ---
 

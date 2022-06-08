@@ -12,7 +12,7 @@ external-url:
 external-url-name:
 return_path: /projects
 display: yes
-description: Built an interface, in both React and Unity, for navigating high-dimensional data
+description: Built an interface, in both React and Unity, for navigating a ConvNet's internal representations of an art collection.
 
 ---
 

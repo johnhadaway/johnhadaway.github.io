@@ -12,7 +12,7 @@ external-url:
 external-url-name:
 return_path: /projects
 display: yes
-description: Helped organised a high-street community for the City of Jyväskylä. Analysed spatial data, facilitated an activation workshop, and built the community's website
+description: Helped organise a high-street community for the City of Jyväskylä. Analysed spatial data, facilitated an activation workshop, and built the community's website
 
 ---
 
