@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  MetaNAR
+title:  MetaNAR (SPIN Unit)
 id: metanar
 year-completed: 2019
 date: 2019-05-05

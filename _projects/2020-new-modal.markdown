@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  The New Modal
+title:  The New Modal (SPIN Unit)
 id: new-modal
 year-completed: 2020
 date: 2020-11-01

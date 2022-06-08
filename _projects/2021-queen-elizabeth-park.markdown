@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  Analysis of the Queen Elizabeth Olympic Park
+title:  Analysis of the Queen Elizabeth Olympic Park (SPIN Unit)
 id: fyma-lldc
 year-completed: 2021
 date: 2021-12-01
