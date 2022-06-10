@@ -1,6 +1,6 @@
 ::selection {
-  background: pink;
-  color: #000;
+  background: #000;
+  color: #fff;
 }
 
 *{
@@ -218,13 +218,13 @@ body::-webkit-scrollbar {
     font-size: 11px;
     line-height: normal;
     margin-bottom: 1.4rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .md-content > p > em {
     margin-top: 0rem;
     font-size: 11px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .md-content > p > a {
@@ -265,14 +265,14 @@ body::-webkit-scrollbar {
     font-size: 11px;
     line-height: normal;
     margin-bottom: 0.25rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: capitalize;
 }
 
 .content-description {
     font-size: 11px;
     line-height: normal;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: none;
 }
 
@@ -283,7 +283,7 @@ body::-webkit-scrollbar {
 .psuedo-list {
   text-decoration: none;
   color: #000;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .psuedo-list:hover {
@@ -299,7 +299,7 @@ body::-webkit-scrollbar {
 .psuedo-list-no-highlight {
   text-decoration: none;
   color: #000;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .text-align-center {
@@ -315,19 +315,19 @@ body::-webkit-scrollbar {
 }
 
 .thin-weight {
-    font-weight: 200 !important;
-}
-
-.regular-weight {
     font-weight: 300 !important;
 }
 
-.bold-weight {
+.regular-weight {
     font-weight: 400 !important;
 }
 
-.extra-bold-weight {
+.bold-weight {
     font-weight: 500 !important;
+}
+
+.extra-bold-weight {
+    font-weight: 600 !important;
 }
 
 
@@ -378,7 +378,7 @@ body::-webkit-scrollbar {
   font-size: 30px;
   line-height: normal;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   color: #000;
 }
 
@@ -397,7 +397,7 @@ body::-webkit-scrollbar {
 }
 
 .corner-nav {
-    font-weight: 300;
+    font-weight: 500;
     color: #000;
     background-color: transparent;
     text-decoration: none;
@@ -406,7 +406,7 @@ body::-webkit-scrollbar {
 }
 
 .corner-nav > a {
-    font-weight: 300;
+    font-weight: 500;
     color: #999;
     background-color: transparent;
     text-decoration: none;
@@ -418,14 +418,14 @@ body::-webkit-scrollbar {
     color: #000;
     background-color: transparent;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .corner-nav > a.active {
     color: #000;
     background-color: transparent;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .mobile-show {
