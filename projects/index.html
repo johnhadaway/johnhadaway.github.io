@@ -52,17 +52,42 @@
       {% assign projects =  site.projects | reverse %}
       {% assign i = 0 %}
 
+
       <div class="page-container padding-side margin-bottom">
-        <div class="col-50 col-float-middle col-content margin-top">
         {% for project in projects %}
           {% if i == 0 %}
-              <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} [{{project.year-completed}}]</b>&nbsp; {{project.description}}. {% if project.display %}<!--<a href="{{project.url}}">See more</a>-->{% elsif project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}</p>
+              <div class="col-50 col-float-middle col-content margin-top project-col">
+                  {% if project.cover-image %} 
+                    {% if project.external-url %} 
+                      <a href={{project.external-url}} target="_blank"><img src={{site.baseurl}}{{project.cover-image}}></a>
+                    {% elsif project.display %} 
+                      <a href={{project.url}}><img src={{site.baseurl}}{{project.cover-image}}></a>
+                    {% else %}
+                      <img src={{site.baseurl}}{{project.cover-image}}>
+                    {% endif %}
+                  {% endif %}
+                  <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} {% if project.organisation %}[{{project.organisation}}]{% endif %} [{{project.year-completed}}]</b><br>
+                  {{project.description}} {% if project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}
+                  </p>
+              </div>
           {% else %}
-              <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} [{{project.year-completed}}]</b>&nbsp; {{project.description}}. {% if project.display %}<!---<a href="{{project.url}}">See more</a>-->{% elsif project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}</p>
+              <div class="col-50 col-float-middle col-content project-col">
+                  {% if project.cover-image %} 
+                    {% if project.external-url %} 
+                      <a href={{project.external-url}} target="_blank"><img src={{site.baseurl}}{{project.cover-image}}></a>
+                    {% elsif project.display %} 
+                      <a href={{project.url}}><img src={{site.baseurl}}{{project.cover-image}}></a>
+                    {% else %}
+                      <img src={{site.baseurl}}{{project.cover-image}}>
+                    {% endif %}
+                  {% endif %}
+                  <p class="content-description thin-weight text-align-left" id="{{project.id}}"><b class="bold-weight">{{project.title}} {% if project.organisation %}[{{project.organisation}}]{% endif %} [{{project.year-completed}}]</b><br>
+                  {{project.description}} {% if project.external-url %}<a href="{{project.external-url}}" target="_blank">{{project.external-url-name}}&#8599;&#xFE0E;</a>{% endif %}
+                  </p>
+              </div>
           {% endif %}
           {% assign i = i | plus:1 %}
          {% endfor %}
-        </div>
       </div>
 
 

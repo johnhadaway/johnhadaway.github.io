@@ -9,7 +9,7 @@
     font-weight: 300;
     color: #000;
     background-color: #fff;
-    font-size: 97%;
+    font-size: 100%;
     scroll-behavior: smooth;
 }
 
@@ -215,7 +215,7 @@ body::-webkit-scrollbar {
 
 .md-content > p {
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 11px;
     line-height: normal;
     margin-bottom: 1.4rem;
     font-weight: 300;
@@ -223,7 +223,7 @@ body::-webkit-scrollbar {
 
 .md-content > p > em {
     margin-top: 0rem;
-    font-size: 0.8rem;
+    font-size: 11px;
     font-weight: 200;
 }
 
@@ -262,7 +262,7 @@ body::-webkit-scrollbar {
 
 
 .content-title {
-    font-size: 0.8rem;
+    font-size: 11px;
     line-height: normal;
     margin-bottom: 0.25rem;
     font-weight: 400;
@@ -270,7 +270,7 @@ body::-webkit-scrollbar {
 }
 
 .content-description {
-    font-size: 0.8rem;
+    font-size: 11px;
     line-height: normal;
     font-weight: 300;
     text-transform: none;
@@ -339,7 +339,7 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 1.25rem;
   right: 1.25rem;
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: normal;
 }
 
@@ -348,7 +348,7 @@ body::-webkit-scrollbar {
   position: fixed;
   bottom: 1.25rem;
   left: 1.25rem;
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: normal;
 }
 
@@ -357,7 +357,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 1.25rem;
   left: 1.25rem;
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: normal;
 }
 
@@ -366,7 +366,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 1.25rem;
   right: 1.25rem;
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: normal;
 }
 
@@ -375,7 +375,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 0.5rem;
   right: 1.25rem;
-  font-size: 3rem;
+  font-size: 30px;
   line-height: normal;
   text-decoration: none;
   font-weight: 400;
@@ -387,7 +387,7 @@ body::-webkit-scrollbar {
   position: fixed;
   top: 25vh;
   left: 1.25rem;
-  font-size: 0.8rem;
+  font-size: 11px;
   line-height: normal;
 }
 
@@ -431,6 +431,24 @@ body::-webkit-scrollbar {
 .mobile-show {
         display: none;
     }
+
+.project-col {
+    margin-bottom: 4vh;
+}
+
+.project-col > img {
+    max-width: 40%;
+    /* margin: 0 auto; */
+}
+
+.project-col > a > img {
+    max-width: 40%;
+    /* margin: 0 auto; */
+}
+
+.project-col > p {
+    /* text-align: center; */
+}
 
 
 
