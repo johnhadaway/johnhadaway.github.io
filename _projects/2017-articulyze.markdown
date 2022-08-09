@@ -13,7 +13,7 @@ external-url: https://github.com/johnhadaway/articulyze
 external-url-name: Github
 return_path: /projects
 display: no
-description: Built a website dedicated to aggregating long-form journalism about the world's most acute humanitarian crises, as defined by the UNOCHA's annual report.
+description: A website that aggregated long-form journalism about the world's most acute humanitarian crises, as defined by the UNOCHA's annual report.
 ---
 
 

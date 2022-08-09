@@ -13,7 +13,7 @@ external-url:
 external-url-name:
 return_path: /projects
 display: no
-description: Co-designed and ran a workshop on mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme at the Narva Art Residency.
+description: A workshop on mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme at the Narva Art Residency.
 
 ---
 

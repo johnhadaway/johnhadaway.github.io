@@ -13,7 +13,7 @@ external-url: https://aarcade.aaschool.ac.uk/
 external-url-name: Website
 return_path: /projects
 display: no
-description: Helped launch a (temporary) satirical outlet for students at the Architectural Association.
+description: A (temporary) satirical outlet for students at the Architectural Association.
 
 ---
 

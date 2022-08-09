@@ -13,7 +13,7 @@ external-url: https://spinunit.org/projects/2021-new-modal/
 external-url-name: SPIN Unit
 return_path: /projects
 display: no
-description: Proccessed and analysed spatial data, working with a GTFS feed, in order to map mobility equity for the City of Tallinn.
+description: Proccessed and analysed spatial data, working with a GTFS feed, to map mobility equity for the City of Tallinn.
 ---
 
 
