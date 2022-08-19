@@ -5,14 +5,12 @@ organisation:
 id: aarcade
 year-completed: 2020
 date: 2020-06-01
-collaborators:
-type: []
 cover-image: /assets/img/2020-aarcade/cover.png
 imgs: []
 external-url: https://aarcade.aaschool.ac.uk/
 external-url-name: Website
 return_path: /projects
-display: no
+on-site: no
 description: A (temporary) satirical outlet for students at the Architectural Association.
 
 ---
