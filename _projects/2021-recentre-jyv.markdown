@@ -7,7 +7,7 @@ year-completed: 2021
 date: 2021-10-30
 cover-image: /assets/img/2021-recentre-jyv/cover.jpg
 imgs: []
-external-url: https://spinunit.org/projects/2021-recentre-jyv/
+external-url: https://spinunit.org
 external-url-name: SPIN Unit
 return_path: /projects
 on-site: no

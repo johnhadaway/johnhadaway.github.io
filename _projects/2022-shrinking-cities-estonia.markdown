@@ -7,7 +7,7 @@ year-completed: 2022
 date: 2022-03-01
 cover-image: /assets/img/2022-shrinking-cities-estonia/cover.jpg
 imgs: []
-external-url: https://spinunit.org/projects/2022-shrinking-national-study/
+external-url: https://spinunit.org
 external-url-name: SPIN Unit
 return_path: /projects
 on-site: no
