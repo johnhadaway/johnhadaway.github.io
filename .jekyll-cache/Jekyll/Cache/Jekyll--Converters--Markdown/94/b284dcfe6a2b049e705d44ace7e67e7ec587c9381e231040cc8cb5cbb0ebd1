@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The longing for belonging</title>
-	<link rel="stylesheet" href="/assets/style/main.css">
-</head>
-<body>
-	<nav id="fixed-nav"><a href="/writing">{return}</a></nav>
-	<div id="content-wrapper">
-		<p class="writing description">
-			<b class="title">The longing for belonging: On nomadism, under-clustering, and the value of connector nodes</b><br>
-			
-				<span class="description">[ July 28, 2022 ]</span>
-			
-		</p>
-		<div class="body-text last">
-			<p>I moved frequently growing up. I had the fortune of living in nearly as many homes and neighbourhoods as I have years, and in nearly as many cities and countries as I have fingers on my hands. The places that I grew up in were, for all intents and purposes, temporary — a place to live, a place to study, a place to play — and the community, inasmuch as it was one, was a community of others like me, of pre-adolescent cosmopolitans, with passports full of stamps and minds full of stories, without an anthem in the heart and a flag to fly.</p>
+I"K<p>I moved frequently growing up. I had the fortune of living in nearly as many homes and neighbourhoods as I have years, and in nearly as many cities and countries as I have fingers on my hands. The places that I grew up in were, for all intents and purposes, temporary — a place to live, a place to study, a place to play — and the community, inasmuch as it was one, was a community of others like me, of pre-adolescent cosmopolitans, with passports full of stamps and minds full of stories, without an anthem in the heart and a flag to fly.</p>
 
 <p>Moving, I think, has had a profound effect on my sense of place, or, more precisely, my sense of anchoring, of belonging. I often found myself, as a consequence of motion, floating in place, not rooted in it. The place names a blur, the streets a hazy map of foreign and familiar, and the song of the city a reverb-drenched, crackling orchestral mess, as if Steve Reich had given in to the temptations of SoundCloud rap. Then, without warning, without knowing how, I would find myself coming into touch with a sense of anchoring — an unfamiliarity that felt familiar — and I would feel that I belonged to the ground beneath my feet. The song of the city was suddenly clear, the place names suddenly familiar, and the streets still a hazy map of foreign and familiar.</p>
 
@@ -86,11 +67,4 @@
     </li>
   </ol>
 </div>
-
-		</div>
-</body>
-</html>
-
-
-
-
+:ET

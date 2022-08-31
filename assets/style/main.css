@@ -38,7 +38,7 @@ body {
 #content-wrapper {
     position: fixed;
     top: 0px;
-    padding: 50px 0 100px 0;
+    padding: 40px 0 100px 0;
     width: 40%;
     height: 95%;
     overflow: scroll;
@@ -80,6 +80,20 @@ p > a, p > i > a {
     text-decoration: underline;
 }
 
+/* centre img in p tag */
+p > img {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p > img + em {
+    display: block;
+    width: 45%;
+}
+
 .project > a img, .project > img {
     width: 45%;
     display: block;
@@ -91,7 +105,7 @@ p > a, p > i > a {
 }
 
 .project {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .project > .description {
@@ -115,6 +129,7 @@ ul {
 ol {
     margin-block-start: 0;
     margin-block-end: 0;
+    padding-inline-start: 30px;
 }
 
 li {
@@ -153,8 +168,8 @@ ol > li > p, ol > li > p > strong > a{
 }
 
 .writing.description {
-    margin-top: 0;
-    margin-bottom: 25px;
+    margin-top: 0 !important;
+    margin-bottom: 10px;
 }
 
 .last {

@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>The longing for belonging</title>
-	<link rel="stylesheet" href="/assets/style/main.css">
-</head>
-<body>
-	<nav id="fixed-nav"><a href="/writing">{return}</a></nav>
-	<div id="content-wrapper">
-		<p class="writing description">
-			<b class="title">The longing for belonging: On nomadism, under-clustering, and the value of connector nodes</b><br>
-			
-				<span class="description">[ July 28, 2022 ]</span>
-			
-		</p>
-		<div class="body-text last">
-			<p>I moved frequently growing up. I had the fortune of living in nearly as many homes and neighbourhoods as I have years, and in nearly as many cities and countries as I have fingers on my hands. The places that I grew up in were, for all intents and purposes, temporary — a place to live, a place to study, a place to play — and the community, inasmuch as it was one, was a community of others like me, of pre-adolescent cosmopolitans, with passports full of stamps and minds full of stories, without an anthem in the heart and a flag to fly.</p>
+I"�J<p>I moved frequently growing up. I had the fortune of living in nearly as many homes and neighbourhoods as I have years, and in nearly as many cities and countries as I have fingers on my hands. The places that I grew up in were, for all intents and purposes, temporary — a place to live, a place to study, a place to play — and the community, inasmuch as it was one, was a community of others like me, of pre-adolescent cosmopolitans, with passports full of stamps and minds full of stories, without an anthem in the heart and a flag to fly.</p>
 
 <p>Moving, I think, has had a profound effect on my sense of place, or, more precisely, my sense of anchoring, of belonging. I often found myself, as a consequence of motion, floating in place, not rooted in it. The place names a blur, the streets a hazy map of foreign and familiar, and the song of the city a reverb-drenched, crackling orchestral mess, as if Steve Reich had given in to the temptations of SoundCloud rap. Then, without warning, without knowing how, I would find myself coming into touch with a sense of anchoring — an unfamiliarity that felt familiar — and I would feel that I belonged to the ground beneath my feet. The song of the city was suddenly clear, the place names suddenly familiar, and the streets still a hazy map of foreign and familiar.</p>
 
@@ -51,7 +32,7 @@
 <p>Platforms like Reddit are useful, of course, but they are not effective — and why should they be? — at helping us find narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts, especially those at the intersection of place and interest — for example, r/helsinki AND r/urbanism AND r/tennis. So we end up searching in publics too large, too daunting, too fragmented, that are often too insular, and often just not very conducive to niche, specific, hyper-local social commitments. We can certainly find new ways, and champion existing ones, to discover and access social commitments across much smaller, much more fine-grained sets of communities — those intersections, say, of place and interest, those intersections of place and time, and those intersections of place and interest and interest, ad infinitum. We can find new ways to invest in them — structurally and through social capital, through a combination of nudge and shove and more nudge — so that they are more accessible and more effective.</p>
 
 <p><img src="/assets/img/2022-longing-for-belonging/02.png" alt="image" />
-<em>Prompted Midjourney with “narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts — represented diagrammatically.”</em></p>
+*Prompted Midjourney with “narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts — represented diagrammatically.”</p>
 
 <p>This is not a particularly novel idea. Certainly, in urban research, a field in which I now have some experience, people often talk about the importance of places of social interaction, community centres, squares, and public parks, the kinds of spaces that are small, and local, and inclusive, and allow us to search in a more narrow space of clustered social commitments. But I think that this point is worth making more explicitly, and more often, because it is not always obvious. We are, after all, connected in a web of social commitments that is dense and clustered and also thin and sparse, and that web often gets lost in the space between our skin, or is taken for granted, in the maelstrom of our daily lives, certainly my own. To allow the production of such hyper-local social commitments to be easy and convenient is a worthwhile commitment, I think, one that I would like to see realised more.</p>
 
@@ -86,11 +67,4 @@
     </li>
   </ol>
 </div>
-
-		</div>
-</body>
-</html>
-
-
-
-
+:ET
