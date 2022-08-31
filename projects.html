@@ -12,8 +12,8 @@ permalink: /projects/
     <link rel="stylesheet" href="{{site.baseurl}}/assets/style/main.css">
 </head>
 <body>
-    <nav id="fixed-nav"><a href="{{site.baseurl}}/">{about}</a>&nbsp; <a class="current" href="">{projects}</a></nav>
-    <div id="project-content-wrapper">
+    <nav id="fixed-nav"><a href="{{site.baseurl}}/">{about}</a>&nbsp; <a class="current" href="">{projects}</a>&nbsp; <a href="{{site.baseurl}}/writing">{writing}</a></nav>
+    <div id="content-wrapper">
         {% assign projects =  site.projects | reverse %}
 
         {% for project in projects %}
@@ -27,10 +27,11 @@ permalink: /projects/
                     <img src={{site.baseurl}}{{project.cover-image}}>
                 {% endif %}
             {% endif %}
-            <p class="description" id="{{project.id}}"><b class="title">{{{project.title}} [{{project.year-completed}}]</b><br>
+            <p class="description" id="{{project.id}}"><b class="title">{{project.title}} [{{project.year-completed}}]</b><br>
             {{project.description}} {% if project.external-url %}<a href="{{project.external-url}}" target="_blank">(More)</a> {% elsif project.display %}<a href="{{project.url}}">(More)</a>{% endif %}
         </div>
         {% endfor %}
+        
     </div>  
 </body>
 </html>

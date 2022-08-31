@@ -1,0 +1,32 @@
+---
+permalink: /writing/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Hadaway</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style/main.css">
+</head>
+<body>
+    <nav id="fixed-nav"><a href="{{site.baseurl}}/">{about}</a>&nbsp; <a href="{{site.baseurl}}/projects">{projects}</a>&nbsp; <a class="current" href="">{writing}</a></nav>
+    <div id="content-wrapper">
+        {% assign written_artifacts =  site.writing | reverse %}
+
+        <ul>
+        {% for artifact in written_artifacts %}
+                {% if artifact.external_url %}
+                    <li><b>[ {{artifact.year}} ]</b>&nbsp; <a href="{{artifact.external_url}}" target="_blank">{{artifact.short-title}}</a></li>
+                {% else %}
+                    <li><b>[ {{artifact.year}} ]</b>&nbsp; <a href="{{artifact.url}}">{{artifact.short-title}}</a></li>
+                {% endif %}
+        {% endfor %}
+        </ul>  
+
+
+    </div>  
+</body>
+</html>

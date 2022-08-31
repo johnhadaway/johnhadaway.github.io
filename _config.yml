@@ -58,3 +58,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  writing: 
+    output: true
+    permalink: /writing/:path/
