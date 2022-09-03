@@ -18,8 +18,8 @@ permalink: /writing/
 
         <ul>
         {% for artifact in written_artifacts %}
-                {% if artifact.external_url %}
-                    <li><b>[ {{artifact.year}} ]</b>&nbsp; <a href="{{artifact.external_url}}" target="_blank">{{artifact.short-title}}</a></li>
+                {% if artifact.external %}
+                    <li><b>[ {{artifact.year}} ]</b>&nbsp; <a href="{{artifact.external-url}}" target="_blank">{{artifact.short-title}}</a></li>
                 {% else %}
                     <li><b>[ {{artifact.year}} ]</b>&nbsp; <a href="{{artifact.url}}">{{artifact.short-title}}</a></li>
                 {% endif %}

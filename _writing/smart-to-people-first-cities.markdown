@@ -6,6 +6,7 @@ display-date: "May 12, 2021"
 short-title: "From smart to people-first cities"
 long-title: "From smart to people-first cities"
 id: smart-to-people-first-cities
+external:
 external-url: 
 publication: The Futures Centre
 ---
