@@ -3,7 +3,7 @@ layout: writing
 year: 2022
 date: 08/04/2022
 display-date: "April 8, 2022"
-short-title: "What do we talk about when we talk about shrinkage? [EST]"
+short-title: "Talking about shrinkage [EST]"
 long-title: 
 id: "what-do-we-talk-about-when-we-talk-about-shrinkage"
 external: yes
