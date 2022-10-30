@@ -23,8 +23,8 @@ body {
     --fw-normal: 400;
     --fw-light: 300;
     --link-highlight: #0000EE;
-    --font-size-bg: 12px;
-    --font-size-sm: 10px;
+    --font-size-bg: 10px;
+    --font-size-sm: 8px;
     --font-size-xs: 8px;
 }
 
@@ -38,7 +38,7 @@ body {
 #content-wrapper {
     position: fixed;
     top: 0px;
-    padding: 40px 0 100px 0;
+    padding: 35px 0 100px 0;
     width: 40%;
     height: 95%;
     overflow: scroll;
