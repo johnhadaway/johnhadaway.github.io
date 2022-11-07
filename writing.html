@@ -20,10 +20,10 @@ permalink: /writing/
         {% assign written_artifacts =  site.writing | reverse %}
         <ul>
         {% for artifact in written_artifacts %}
-            {% if artifact.external %}
+            {% if artifact.external-url %}
                 <li>
                     <b>[{{artifact.year}}]</b>&nbsp;
-                    <a href="{{artifact.external-url}}" target="_blank">{{artifact.short-title}}</a>
+                    <a href="{{artifact.external-url}}" target="_blank">{{artifact.short-title}} {% if artifact.external %}&#8599;&#xFE0E;{% endif %}</a>
                 </li>
             {% else %}
                 <li>
