@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  The New Modal
 organisation: SPIN Unit
 id: new-modal
@@ -10,8 +9,7 @@ imgs: []
 external-url: https://spinunit.org
 external-url-name: SPIN Unit
 return_path: /projects
-on-site: no
-description: Proccessed and analysed spatial data, working with a GTFS feed, to map mobility equity for the City of Tallinn.
+description: "Worked with a GTFS feed to map mobility equity for the City of Tallinn."
 ---
 
 

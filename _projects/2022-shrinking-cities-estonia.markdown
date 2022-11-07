@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  Estonian Shrinking Patterns
 organisation: SPIN Unit
 id: shrinking-cities-estonia
@@ -10,8 +9,7 @@ imgs: []
 external-url: https://spinunit.org
 external-url-name: SPIN Unit
 return_path: /projects
-on-site: no
-description: Processed, analysed, and visualised building-level vacancy data for the Estonian Ministry of Economic Affairs.
+description: Processed, analysed, and visualised vacancy data for the Estonian Ministry of Economic Affairs.
 ---
 
 

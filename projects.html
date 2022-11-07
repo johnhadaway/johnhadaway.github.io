@@ -12,26 +12,40 @@ permalink: /projects/
     <link rel="stylesheet" href="{{site.baseurl}}/assets/style/main.css">
 </head>
 <body>
-    <nav id="fixed-nav"><a href="{{site.baseurl}}/">{about}</a>&nbsp; <a class="current" href="">{projects}</a>&nbsp; <a href="{{site.baseurl}}/writing">{writing}</a></nav>
+    <nav id="fixed-nav">
+        <a href="{{site.basuerl}}/">[about]</a> 
+        <a href="" class="current">[projects]</a> 
+        <a href="{{site.baseurl}}/writing">[writing]</a>
+    </nav>
     <div id="content-wrapper">
         {% assign projects =  site.projects | reverse %}
-
         {% for project in projects %}
         <div id="{{project.id}}" class="project">
             {% if project.cover-image %} 
-                {% if project.external-url %} 
+                <a class="img-open-description">
+                    {% if project.external-url %} 
                     <img src={{site.baseurl}}{{project.cover-image}}>
-                {% elsif project.display %} 
+                    {% elsif project.display %} 
                     <img src={{site.baseurl}}{{project.cover-image}}>
-                {% else %}
+                    {% else %}
                     <img src={{site.baseurl}}{{project.cover-image}}>
-                {% endif %}
+                    {% endif %}
+                </a>
             {% endif %}
-            <p class="description" id="{{project.id}}"><b class="title">{{project.title}} [{{project.year-completed}}]</b><br>
-            {{project.description}} {% if project.external-url %}<a href="{{project.external-url}}" target="_blank">(More)</a> {% elsif project.display %}<a href="{{project.url}}">(More)</a>{% endif %}
+            <p class="meta" id="{{project.id}}">
+                <a class="txt-open-description title">
+                    {{project.title}} [{{project.year-completed}}] <span>(+)</span>
+                </a>
+            </p>
+            <p class="description">
+                {{project.description}} 
+                {% if project.external-url %}
+                    <a href="{{project.external-url}}" target="_blank">({{project.external-url-name}})</a>
+                {% endif %}
+            </p>
         </div>
         {% endfor %}
-        
     </div>  
+    <script src="{{site.baseurl}}/assets/js/projectDisplay.js"></script>
 </body>
 </html>

@@ -1,9 +1,32 @@
+@font-face {
+    font-family: 'ft88';
+    src: url('../font/ft88/FT88-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ft88';
+    src: url('../font/ft88/FT88-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'ft88';
+    src: url('../font/ft88/FT88-Italic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ft88-serif';
+    src: url('../font/ft88/FT88-Serif.otf') format('opentype');
+}
+
+
 html {
     overflow: hidden;
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'ft88';
     font-size: var(--font-size-bg);
     scroll-behavior: smooth;
 }
@@ -19,13 +42,10 @@ body {
     --fc-high: #0a0a0a;
     --fc-med: #4a4a4a;
     --fc-low: #6a6a6a;
-    --fw-bold: 700;
-    --fw-normal: 400;
-    --fw-light: 300;
     --link-highlight: #0000EE;
-    --font-size-bg: 10px;
-    --font-size-sm: 8px;
-    --font-size-xs: 8px;
+    --font-size-bg: 11px;
+    --font-size-sm: 9px;
+    --font-size-xs: 9px;
 }
 
 #fixed-nav {
@@ -39,7 +59,7 @@ body {
     position: fixed;
     top: 0px;
     padding: 35px 0 100px 0;
-    width: 40%;
+    width: 50%;
     height: 95%;
     overflow: scroll;
     -ms-overflow-style: none;
@@ -55,12 +75,15 @@ body {
 
 p {
     color: var(fc-med);
-    font-weight: var(--fw-normal);
 }
 
-a, #fixed-nav > a {
+a {
     color: #0a0a0a;
-    font-weight: var(--fw-bold);
+}
+
+#fixed-nav > a {
+    color: #0a0a0a;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -76,11 +99,9 @@ a:hover, #fixed-nav a:hover {
 
 p > a, p > i > a {
     color: var(--link-highlight);
-    font-weight: var(--fw-normal);
     text-decoration: underline;
 }
 
-/* centre img in p tag */
 p > img {
     width: 60%;
     height: auto;
@@ -90,8 +111,14 @@ p > img {
 }
 
 p > img + em {
+    font-family: 'ft88-serif';
+    font-style: normal;
     display: block;
-    width: 45%;
+    width: 60%;
+}
+
+.project {
+    margin-bottom: 30px;
 }
 
 .project > a img, .project > img {
@@ -104,21 +131,28 @@ p > img + em {
     margin-top: 6px;
 }
 
-.project {
-    margin-bottom: 30px;
+.project > .description {
+    display: none;
 }
 
-.project > .description {
-    font-weight: var(--fw-light);
+.project > .description, .project > .meta {
+    width: 70%;
 }
 
 .project > .description > a {
     font-size: var(--font-size-sm);
 }
 
-.project > .description > b.title {
-    font-weight: var(--fw-bold);
-} 
+.project > .meta, .project > .meta > a {
+    color: #000;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 ul {
     padding: 0;
@@ -150,7 +184,6 @@ sup > a {
 
 li > a, ol > li > p > strong > a {
     color: var(--link-highlight);
-    font-weight: var(--fw-normal);
     text-decoration: underline;
     list-style-type: square;
 }
@@ -167,6 +200,10 @@ ol > li > p, ol > li > p > strong > a{
     font-size: var(--font-size-xs);
 }
 
+.footnotes > * > * > * > * {
+    font-weight: normal;
+}
+
 .writing.description {
     margin-top: 0 !important;
     margin-bottom: 10px;
@@ -176,9 +213,10 @@ ol > li > p, ol > li > p > strong > a{
     margin-bottom: 75px;
 }
 
+.body-text > p {
+    font-family: 'ft88-serif' !important;
+}
 
-
-/* make project full-width for mobile */
 @media (max-width: 700px) {
     #content-wrapper, #project-content-wrapper {
         width: 95%;
@@ -186,6 +224,10 @@ ol > li > p, ol > li > p > strong > a{
     }
 
     .project > a img, .project > img {
+        width: 80%;
+    }
+
+    .project > .description, .project > .meta {
         width: 100%;
     }
 }

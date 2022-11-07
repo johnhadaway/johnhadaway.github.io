@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  MetaNAR
 organisation: SPIN Unit
 id: metanar
@@ -10,9 +9,7 @@ imgs: []
 external-url:
 external-url-name:
 return_path: /projects
-on-site: no
-description: A workshop on mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme at the Narva Art Residency.
-
+description: "Mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme."
 ---
 
 

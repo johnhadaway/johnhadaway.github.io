@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  Articulyze
 organisation:
 id: articulyze
@@ -10,8 +9,7 @@ imgs: []
 external-url: https://github.com/johnhadaway/articulyze
 external-url-name: Github
 return_path: /projects
-on-site: no
-description: A website that aggregated long-form journalism about the world's most acute humanitarian crises, as defined by the UNOCHA's annual report.
+description: "A website that aggregated long-form journalism about the world's most acute humanitarian crises, as defined by the UNOCHA's annual report."
 ---
 
 

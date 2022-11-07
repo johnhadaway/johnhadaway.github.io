@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  The AArcade
 organisation: 
 id: aarcade
@@ -10,9 +9,7 @@ imgs: []
 external-url: https://aarcade.aaschool.ac.uk/
 external-url-name: Website
 return_path: /projects
-on-site: no
-description: A (temporary) satirical outlet for students at the Architectural Association.
-
+description: "A (temporary) satirical outlet for students at the Architectural Association."
 ---
 
 

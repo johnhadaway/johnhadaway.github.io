@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  HKU Guild
 organisation: 
 id: hku-guild
@@ -10,9 +9,7 @@ imgs: []
 external-url:
 external-url-name:
 return_path: /projects
-on-site: no
-description: Designed key visuals and worked on other ad hoc design tasks for the HKU Guild.
-
+description: "Digital design @ the HKU Guild."
 ---
 
 

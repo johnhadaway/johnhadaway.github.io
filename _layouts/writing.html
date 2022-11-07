@@ -16,14 +16,20 @@
 		<p class="writing description">
 			<b class="title">{{page.long-title}}</b><br>
 			{% if page.publication %}
-				<span class="description">[ {{page.display-date}} ]&nbsp; [ {{page.publication}} ]</span>
+				<span class="description">[{{page.display-date}}] [{{page.publication}}]</span>
 			{% else %}
-				<span class="description">[ {{page.display-date}} ]</span>
+				<span class="description">[{{page.display-date}}]</span>
 			{% endif %}
 		</p>
 		<div class="body-text last">
 			{{page.content}}
 		</div>
+		<script>
+			var reversefootnotes = document.querySelectorAll(".reversefootnote");
+			for (var i = 0; i < reversefootnotes.length; i++) {
+				reversefootnotes[i].innerHTML = "&#8617;&#xFE0E;";
+			}
+		</script>
 </body>
 </html>
 
