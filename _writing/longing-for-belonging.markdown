@@ -3,7 +3,7 @@ layout: writing
 year: 2022
 date: 28/07/2022
 display-date: "July 28, 2022"
-short-title: "The longing for belonging"
+short-title: "On nomadism, under-clustering, and the value of connector nodes"
 long-title: "The longing for belonging: On nomadism, under-clustering, and the value of connector nodes"
 id: longing-belonging-2022
 external:
