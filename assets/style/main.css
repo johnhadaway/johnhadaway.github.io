@@ -20,13 +20,24 @@
     src: url('../font/ft88/FT88-Serif.otf') format('opentype');
 }
 
+@font-face {
+    font-family: 'authentic-sans';
+    src: url('../font/authentic-sans/AUTHENTICSans-90.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'authentic-sans';
+    src: url('../font/authentic-sans/AUTHENTICSans-150.woff') format('woff');
+    font-weight: bold;
+}
+
 
 html {
     overflow: hidden;
 }
 
 * {
-    font-family: 'ft88';
+    font-family: var(--font-family-one);
     font-size: var(--font-size-bg);
     scroll-behavior: smooth;
 }
@@ -46,6 +57,8 @@ body {
     --font-size-bg: 11px;
     --font-size-sm: 9px;
     --font-size-xs: 9px;
+    --font-family-one: 'ft88';
+    --font-family-two: 'monospace';
 }
 
 #fixed-nav {
@@ -111,7 +124,7 @@ p > img {
 }
 
 p > img + em {
-    font-family: 'ft88-serif';
+    font-family: var(--font-family-two);
     font-style: normal;
     display: block;
     width: 60%;
@@ -196,11 +209,13 @@ ol > li > p, ol > li > p > strong > a{
     font-size: var(--font-size-bg);
 }
 
-.footnotes > * {
-    font-size: var(--font-size-xs);
+.footnotes > *, .footnotes > * > *, .footnotes > * > * > *, 
+.footnotes > * > * > * > *, .footnotes > * > * > * > * > * {
+    font-family: var(--font-family-two) !important;
 }
 
 .footnotes > * > * > * > * {
+    font-family: var(--font-family-two) !important;
     font-weight: normal;
 }
 
@@ -209,12 +224,16 @@ ol > li > p, ol > li > p > strong > a{
     margin-bottom: 10px;
 }
 
+.writing.description > * {
+    font-family: var(--font-family-two) !important;
+}
+
 .last {
     margin-bottom: 75px;
 }
 
 .body-text > p {
-    font-family: 'ft88-serif' !important;
+    font-family: var(--font-family-two) !important;
 }
 
 @media (max-width: 800px) {
