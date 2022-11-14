@@ -55,10 +55,10 @@ body {
     --fc-low: #6a6a6a;
     --link-highlight: #0000EE;
     --font-size-bg: 11px;
-    --font-size-sm: 9px;
-    --font-size-xs: 9px;
-    --font-family-one: 'ft88';
-    --font-family-two: 'ft88';
+    --font-size-sm: 11px;
+    --font-size-xs: 11px;
+    --font-family-one: 'authentic-sans';
+    --font-family-two: 'authentic-sans';
 }
 
 #fixed-nav {
