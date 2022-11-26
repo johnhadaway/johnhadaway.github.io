@@ -1,5 +1,5 @@
 ---
-title:  Recentre Jyväskylä
+title: Recentre Jyväskylä
 organisation: SPIN Unit
 id: recentre-jyv
 year-completed: 2021
@@ -9,10 +9,5 @@ imgs: []
 external-url: https://spinunit.org/2021-10-ReCenter-Jyvaskyla
 external-url-name: SPIN Unit
 return_path: /projects
-description: "Analysed spatial data, facilitated a workshop, and built a website for the City of Jyväskylä."
+description: 'Analysed spatial data, facilitated a workshop, and built a website for the City of Jyväskylä.'
 ---
-
-
-
-
-

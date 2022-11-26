@@ -1,5 +1,5 @@
 ---
-title:  MetaNAR
+title: MetaNAR
 organisation: SPIN Unit
 id: metanar
 year-completed: 2019
@@ -9,10 +9,5 @@ imgs: []
 external-url:
 external-url-name:
 return_path: /projects
-description: "Mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme."
+description: 'Mapping the digital footprint of Narva, Estonia, for the (Re)configuring Territories programme.'
 ---
-
-
-
-
-

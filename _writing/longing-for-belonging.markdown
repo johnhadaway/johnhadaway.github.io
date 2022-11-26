@@ -2,12 +2,12 @@
 layout: writing
 year: 2022
 date: 28/07/2022
-display-date: "July 28, 2022"
-short-title: "On nomadism, under-clustering, and the value of connector nodes"
-long-title: "The longing for belonging: On nomadism, under-clustering, and the value of connector nodes"
+display-date: 'July 28, 2022'
+short-title: 'On nomadism, under-clustering, and the value of connector nodes'
+long-title: 'The longing for belonging: On nomadism, under-clustering, and the value of connector nodes'
 id: longing-belonging-2022
 external:
-external-url: 
+external-url:
 publication:
 ---
 
@@ -20,7 +20,7 @@ Those moments of anchoring have always been temporary, the product of overlap, o
 I am indebted to capital-c circumstance for putting me amidst institutions that generated these social commitments: a supportive family deeply invested in creating opportunities for me to engage with worlds outside of school; primary and secondary institutions that structured my social life around classes and a robust ecosystem of extracurricular activities; a tertiary education that did the same, though perhaps with less rigour, despite the quirky Hogwarts-esque house system. Being my cause was the exception, not the rule, because things generative of place, of the presence of a community — of a sense of anchoring — were clustered around me by design.
 
 ![image](/assets/img/2022-longing-for-belonging/01.png)
-*Prompted Midjourney with “‘I often found myself, as a consequence of motion, floating in place, not rooted in it.’ — interpreted in the style of Studio Ghibli.”*
+_Prompted Midjourney with “‘I often found myself, as a consequence of motion, floating in place, not rooted in it.’ — interpreted in the style of Studio Ghibli.”_
 
 Upon graduating and moving halfway across the globe, that design folded. My social life was no longer shaped by institutions, but by the individual; the onus — all of the onus — fell on me. The generative forces that had, before, produced my sense of place, my sense of anchoring, became scattered, portable, disparate. My social life was no longer structured around a common, centralising institution, but around the relatively unmoored and unmoored institutions of small, scattered groups: WhatsApp groups, email threads, Discord servers, and a Slack channel. And the local social commitments that I did have were within the relatively small, relatively insular social graph of my girlfriend, who describes a similar experience, and my workplace. The sense of anchoring, the sense of place, was lost — at the very least, much more difficult to manufacture.
 
@@ -45,7 +45,7 @@ It is perhaps a silly and naïve thing to say, but I think that one solution to 
 Platforms like Reddit are useful, of course, but they are not effective — and why should they be? — at helping us find narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts, especially those at the intersection of place and interest — for example, r/helsinki AND r/urbanism AND r/tennis. So we end up searching in publics too large, too daunting, too fragmented, that are often too insular, and often just not very conducive to niche, specific, hyper-local social commitments. We can certainly find new ways, and champion existing ones, to discover and access social commitments across much smaller, much more fine-grained sets of communities — those intersections, say, of place and interest, those intersections of place and time, and those intersections of place and interest and interest, ad infinitum. We can find new ways to invest in them — structurally and through social capital, through a combination of nudge and shove and more nudge — so that they are more accessible and more effective.
 
 ![image](/assets/img/2022-longing-for-belonging/02.png)
-*Prompted Midjourney with “narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts — represented diagrammatically.”*
+_Prompted Midjourney with “narrower publics, ones with rich overlap, expansive, hyper-personal shared contexts — represented diagrammatically.”_
 
 This is not a particularly novel idea. Certainly, in urban research, a field in which I now have some experience, people often talk about the importance of places of social interaction, community centres, squares, and public parks, the kinds of spaces that are small, and local, and inclusive, and allow us to search in a more narrow space of clustered social commitments. But I think that this point is worth making more explicitly, and more often, because it is not always obvious. We are, after all, connected in a web of social commitments that is dense and clustered and also thin and sparse, and that web often gets lost in the space between our skin, or is taken for granted, in the maelstrom of our daily lives, certainly my own. To allow the production of such hyper-local social commitments to be easy and convenient is a worthwhile commitment, I think, one that I would like to see realised more.
 
@@ -61,5 +61,4 @@ A bunch of questions: can we make more of these connector nodes? How do we make 
 [^4]: **[This pre-print](https://arxiv.org/abs/2207.06895)**, “Behavioural changes during the pandemic worsened income diversity of urban encounters,” suggests that there has been a measurable decline — as much as 30% — in the income diversity of physical encounters in large US cities due to the pandemic, perhaps pointing to the scale of the problem?
 [^5]: One of my favourite reads from the past few months has been **[this interview with Byung-Chul Han](https://www.noemamag.com/all-that-is-solid-melts-into-information/)**, in which they discuss a number of things. It got me thinking about whether sustained ritual in these spaces — both the terrace and the Facebook group — was a precondition for me reading them with such fondness.
 [^6]: This, of course, raises another question: how do we make sure that these things — these connector nodes, these items of projective storytelling that coarsely map to my experience — are not just another mechanism for inequality’s reproduction? This question begets discourse, to which I have limited exposure, on the fragmentation of resources — certainly requisite for institutions and spaces like those I am describing — in urban environments.
-[^7]: In hindsight, this reads quite a lot like Ray Oldenburg’s concept of a third place, which might be summarised as levelling, home-like social environments, neutral ground where people can gather and interact, fostering socialisation and community encounters. See his book, **[The Great Good Place](https://en.wikipedia.org/wiki/The_Great_Good_Place_(book))**, for more. Perhaps I am over-fitting from what little I can glean, but I have found it interesting, in recent months, to see renewed interest in the concept. See this project in San Fransisco, **[The Commons](https://www.thesfcommons.com/)**, which strives to function as one; it has raised 61,000 USD, at the time of writing, via crowdfunding.
-
+[^7]: In hindsight, this reads quite a lot like Ray Oldenburg’s concept of a third place, which might be summarised as levelling, home-like social environments, neutral ground where people can gather and interact, fostering socialisation and community encounters. See his book, **[The Great Good Place](<https://en.wikipedia.org/wiki/The_Great_Good_Place_(book)>)**, for more. Perhaps I am over-fitting from what little I can glean, but I have found it interesting, in recent months, to see renewed interest in the concept. See this project in San Fransisco, **[The Commons](https://www.thesfcommons.com/)**, which strives to function as one; it has raised 61,000 USD, at the time of writing, via crowdfunding.

@@ -1,6 +1,6 @@
 ---
-title:  HKU Guild
-organisation: 
+title: HKU Guild
+organisation:
 id: hku-guild
 year-completed: 2020
 date: 2020-09-01
@@ -9,10 +9,5 @@ imgs: []
 external-url:
 external-url-name:
 return_path: /projects
-description: "Digital design @ the HKU Guild."
+description: 'Digital design @ the HKU Guild.'
 ---
-
-
-
-
-

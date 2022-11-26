@@ -1,5 +1,5 @@
 ---
-title:  The New Modal
+title: The New Modal
 organisation: SPIN Unit
 id: new-modal
 year-completed: 2020
@@ -9,10 +9,5 @@ imgs: []
 external-url: https://spinunit.org/2021-06-The-new-modal
 external-url-name: SPIN Unit
 return_path: /projects
-description: "Worked with a GTFS feed to map mobility equity for the City of Tallinn."
+description: 'Worked with a GTFS feed to map mobility equity for the City of Tallinn.'
 ---
-
-
-
-
-

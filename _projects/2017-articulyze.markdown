@@ -1,5 +1,5 @@
 ---
-title:  Articulyze
+title: Articulyze
 organisation:
 id: articulyze
 year-completed: 2017
@@ -11,8 +11,3 @@ external-url-name: Github
 return_path: /projects
 description: "A website that aggregated long-form journalism about the world's most acute humanitarian crises, as defined by the UNOCHA's annual report."
 ---
-
-
-
-
-

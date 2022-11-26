@@ -2,12 +2,12 @@
 layout: writing
 year: 2021
 date: 12/05/2021
-display-date: "May 12, 2021"
-short-title: "From smart to people-first cities"
-long-title: "From smart to people-first cities"
+display-date: 'May 12, 2021'
+short-title: 'From smart to people-first cities'
+long-title: 'From smart to people-first cities'
 id: smart-to-people-first-cities
 external: yes
-external-url: 
+external-url:
 publication: The Futures Centre
 ---
 
@@ -22,4 +22,3 @@ publication: The Futures Centre
 <p><b>The rigidity of land-use planning.</b> <a href="https://app.dealroom.co/companies/karma_kitchen" target="_blank">Karma Kitchen</a>, transforming industrial spaces into cloud kitchens, raised a EUR 302 million Series A round last July. On its own, that data is perhaps uninteresting, another expensive mark in a brisk history of venture capitalists deploying capital. A closer, contextualizing look, however, proves fruitful. As <a href="https://www.businessinsider.com/karma-kitchen-318-million-rentable-kitchens-uber-eats-deliveroo-2020-7?r=US&IR=T" target="_blank">Business Insider</a> reports, Karma Kitchen’s founders had, prior to the pandemic, only planned on raising EUR 3 million. Indeed, restaurants, shocked by the pandemic, turned to delivery, and Karma Kitchen provided a way, an adapted, private spatial form, for restaurants to access new delivery areas without taking on excessive capital expenditure risk, lessening the friction of distance. In turn, food delivery grew to account for 85% of Karma Kitchen’s business, imploring the company to partner with a private equity firm that deals primarily in industrial real estate, enabling them to raise the round that they did and plan to expand operations into other urban areas. Crises put our cities into motion, and cities in motion require flexibility. The success of Karma Kitchen’s business model of privately fitting-out spaces for temporary uses that were incalculable pre-crisis points, more broadly, to the importance of planning for flexibility, of moving beyond the rigidity of land-use planning.</p>
 
 <p><b>Divisions in urban citizenship.</b> Previously, we referred to the importance of creating systems for social imagination, facilitating a shift from in-ness to of-ness. However, inequality, a tacit question, was left unmentioned. The pandemic has intensified inequalities in the extent to which people feel of the city. Indeed, cleavages in urban citizenship are becoming more tangible. Globally, we see informal workers and the urban poor, <a href="https://www.adb.org/publications/urban-poverty-asia" target="_blank">already privy to less social protections</a>, bearing the brunt of the pandemic’s shocks and outgrowths. In India, for example, <a href="https://blogs.worldbank.org/endpovertyinsouthasia/covid-19-has-worsened-woes-south-asias-informal-sector" target="_blank">over 44% of informal workers were jobless in April 2020</a>, suffering more losses than formal workers. In urban slums like San Roque in the NCR, dissatisfaction with government relief <a href="https://www.nytimes.com/2020/04/15/world/asia/manila-coronavirus-lockdown-slum.html" target="_blank">precipitated violence and arrests</a> in April 2020. In the Philippines more widely, the <a href="https://www.aljazeera.com/videos/2020/4/29/hrw-covid-19-lockdown-violators-in-philippines-abused" target="_blank">militarization</a> of the pandemic response has <a href="https://blogs.lse.ac.uk/covid19/2020/06/05/covid-19-reveals-unequal-urban-citizenship-in-manila-dhaka-and-delhi/" target="_blank">varied</a> in space and by class. To be sure, the pandemic has made divisions in urban citizenship plain to see — <a href="https://www.imf.org/external/pubs/ft/fandd/2020/09/COVID19-and-global-inequality-joseph-stiglitz.htm" target="_blank">and not exclusively in the Global South</a>. Cities are charged with making sure that they avoid these trappings, that those who may feel insincerely in the city but not sincerely of it, those who may feel helpless and powerless to affect their urban environment, are heard. The stakes are significant: unevenness in the experience of urban citizenship may, for example, <a href="https://ethnomarginalia.com/populism-as-witchcraft/" target="_blank">create conditions in which accounts of populist sincerity can take root, be corroborated, and become social fact.</a></p>
-
