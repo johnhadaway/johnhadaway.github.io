@@ -9,5 +9,5 @@ imgs: []
 external-url: https://github.com/johnhadaway/plurality.net
 external-url-name: Github
 return_path: /projects
-description: "Designed and built the first version (since extended by the community) of plurality.net, the website for Audrey Tang and Glen E. Weyl's book project, 'Plurality: Technology for Collaborative Diversity and Democracy'"
+description: "Designed and built an early version of plurality.net, the website hosting the 'Plurality: Technology for Collaborative Diversity and Democracy' book project."
 ---
