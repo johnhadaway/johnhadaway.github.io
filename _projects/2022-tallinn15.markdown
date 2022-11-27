@@ -11,4 +11,3 @@ external-url-name: lina.community
 return_path: /projects
 description: Support work — research and ideation — for SPIN Unit’s contribution to the Tallinn Architectural Biennale.
 ---
-
