@@ -82,7 +82,7 @@ body {
     display: none;
 }
 
-#content-wrapper > p.first {
+#content-wrapper > p:first-child {
     margin-top: 0;
 }
 
@@ -120,7 +120,6 @@ p > img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 p > img + em {
@@ -135,8 +134,14 @@ p > img + em {
 }
 
 .project > a img, .project > img {
+    width: 100%;
+    user-select: none;
+}
+
+.project > a {
     width: 45%;
     display: block;
+    user-select: none;
 }
 
 .project > p {
@@ -242,11 +247,15 @@ ol > li > p, ol > li > p > strong > a{
         -ms-overflow-style: none;
     }
 
-    .project > a img, .project > img {
+    .project > a {
         width: 80%;
+        display: block;
+        user-select: none;
+        touch-action: manipulation;
     }
 
     .project > .description, .project > .meta {
         width: 100%;
+        touch-action: manipulation;
     }
 }

@@ -1,5 +1,5 @@
 ---
-permalink: /writing/
+permalink: /blog/
 ---
 
 <!DOCTYPE html>
@@ -15,20 +15,20 @@ permalink: /writing/
     <nav id="fixed-nav">
         <a href="{{site.baseurl}}/">[about]</a>&nbsp
         <a href="{{site.baseurl}}/projects">[projects]</a>&nbsp
-        <a class="current" href="">[writing]</a></nav>
+        <a class="current" href="">[blog]</a></nav>
     <div id="content-wrapper">
-        {% assign written_artifacts =  site.writing | reverse %}
+        {% assign blog_posts =  site.blog | reverse %}
         <ul>
-        {% for artifact in written_artifacts %}
+        {% for post in blog_posts %}
             {% if artifact.external-url %}
                 <li>
-                    <b>[{{artifact.year}}]</b>&nbsp;
-                    <a href="{{artifact.external-url}}" target="_blank">{{artifact.short-title}} {% if artifact.external %}&#8599;&#xFE0E;{% endif %}</a>
+                    <b>[{{post.display-date}}]</b>&nbsp;
+                    <a href="{{post.external-url}}" target="_blank">{{post.short-title}} {% if post.external %}&#8599;&#xFE0E;{% endif %}</a>
                 </li>
             {% else %}
                 <li>
-                    <b>[{{artifact.year}}]</b>&nbsp; 
-                    <a href="{{artifact.url}}">{{artifact.short-title}}</a>
+                    <b>[{{post.display-date}}]</b>&nbsp; 
+                    <a href="{{post.url}}">{{post.short-title}}</a>
                 </li>
             {% endif %}
         {% endfor %}
