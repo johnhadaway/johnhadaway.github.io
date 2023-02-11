@@ -11,7 +11,7 @@ external-url:
 publication:
 ---
 
-I figured "some things that I have been reading (and bobbing my head to)" would be a better title for this specific post than the plain, traditional "some things I have been reading" -- and yes, a corpus of two posts constitutes a "tradition." It follows that I have been listening to a lot of music lately, and I would like to record that unimportant fact here, for posterity and all that.
+I figured "some things that I have been reading (and bobbing my head to)" would be a better title for this specific post than the plain, traditional "some things I have been reading" -- and yes, a corpus of two posts is a "tradition." I have been listening to a lot of music lately, and I would like to record that unimportant fact here, for posterity and all that.
 
 - [This research](https://otherinter.net/research/local-gov/) explores the role of neighborhood associations in local governance as digital technologies reshape civic participation.
 - [This idea](http://booktwo.org/notebook/the-tumblr-museum/) for a "minimum viable museum" is pretty neat.
