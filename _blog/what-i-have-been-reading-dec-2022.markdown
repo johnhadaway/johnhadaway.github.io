@@ -3,8 +3,8 @@ layout: writing
 year: 2022
 date: 27/12/2022
 display-date: '27/12/2022'
-short-title: 'What I have been reading'
-long-title: 'What I have been reading'
+short-title: 'Some things that I have been reading'
+long-title: 'Some things that I have been reading'
 id: reading-2022-12-27
 external:
 external-url:
