@@ -20,7 +20,7 @@ permalink: /blog/
         {% assign blog_posts =  site.blog | reverse %}
         <ul>
         {% for post in blog_posts %}
-            {% if artifact.external-url %}
+            {% if post.external-url %}
                 <li>
                     <b>[{{post.display-date}}]</b>&nbsp;
                     <a href="{{post.external-url}}" target="_blank">{{post.short-title}} {% if post.external %}&#8599;&#xFE0E;{% endif %}</a>
