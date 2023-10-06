@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Some links</title>
-	<link rel="stylesheet" href="/assets/style/main.css">
-</head>
-<body>
-	<nav id="fixed-nav"><a href="/blog">[return]</a></nav>
-	<div id="content-wrapper">
-		<p class="writing description">
-			<b class="title">Some links</b><br>
-			
-				<span class="description">[06/10/2023]</span>
-			
-		</p>
-		<div class="body-text last">
-			<ul>
+I"�<ul>
   <li><a href="https://sariazout.mirror.xyz/7gSSTJ96SEyvXeljymglO3zN4H6DCgVnrNZq8_2NX1A">This blog post</a> discusses the diminishing effectiveness of general search engines like Google for nuanced queries, and advocates for the development of boutique search engines.</li>
-  <li><a href="https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/">This article</a> explores the <a href="https://en.wikipedia.org/wiki/Roman_Empire#/media/File:Vexilloid_of_the_Roman_Empire.svg">rise</a> and <a href="https://www.nytimes.com/2023/09/15/style/roman-empire-men-tiktok-instagram.html">fall</a>, as it were, of design thinking.</li>
+  <li><a href="https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/">This article</a> explores the <a href="https://en.wikipedia.org/wiki/Roman_Empire">rise</a> and <a href="https://www.nytimes.com/2023/09/15/style/roman-empire-men-tiktok-instagram.html">fall</a>, as it were, of design thinking.</li>
   <li><a href="https://jzhao.xyz/posts/agentic-computing">This blog post</a> is a deeply inspiring and hopeful reflection on a possible direction for the internet.</li>
   <li><a href="https://restofworld.org/2023/buddhist-monk-tiktok-monastic-code/">This article</a> on “MonkTok” in Cambodia.</li>
   <li><a href="https://aviv.medium.com/when-we-change-the-efficiency-of-knowledge-operations-we-change-the-shape-of-society-d48ca870ff5b">A series of claims</a> on the transformations that could arise from AI-driven enhancements in the efficency of knowledge operations</li>
@@ -34,17 +15,4 @@
   <li><a href="https://www.atvbt.com/george/">A fun blog post</a> on Georgism, questioning conventional land ownership norms and drawing parallels with common goods like radio frequencies. Their <a href="https://www.wired.com/story/land-ownership-morality-economics-georgism/?ref=atvbt.com">Wired piece</a> on Georgism is also quite good!</li>
   <li><a href="https://www.noemamag.com/participation-at-scale-can-repair-the-public-square/?utm_source=noematwitter&amp;utm_medium=noemasocial">This article</a> goes through different “digital platforms for deliberation and consensus.”</li>
 </ul>
-
-		</div>
-		<script>
-			var reversefootnotes = document.querySelectorAll(".reversefootnote");
-			for (var i = 0; i < reversefootnotes.length; i++) {
-				reversefootnotes[i].innerHTML = "&#8617;&#xFE0E;";
-			}
-		</script>
-</body>
-</html>
-
-
-
-
+:ET

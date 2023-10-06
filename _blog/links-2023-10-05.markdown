@@ -1,18 +1,18 @@
 ---
 layout: writing
 year: 2023
-date: 06/10/2023
-display-date: '06/10/2023'
+date: 05/10/2023
+display-date: '05/10/2023'
 short-title: 'Some links'
 long-title: 'Some links'
-id: links-2023-10-06
+id: links-2023-10-05
 external:
 external-url:
 publication:
 ---
 
 - [This blog post](https://sariazout.mirror.xyz/7gSSTJ96SEyvXeljymglO3zN4H6DCgVnrNZq8_2NX1A) discusses the diminishing effectiveness of general search engines like Google for nuanced queries, and advocates for the development of boutique search engines. 
-- [This article](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/) explores the [rise](https://en.wikipedia.org/wiki/Roman_Empire#/media/File:Vexilloid_of_the_Roman_Empire.svg) and [fall](https://www.nytimes.com/2023/09/15/style/roman-empire-men-tiktok-instagram.html), as it were, of design thinking.
+- [This article](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/) explores the [rise](https://en.wikipedia.org/wiki/Roman_Empire) and [fall](https://www.nytimes.com/2023/09/15/style/roman-empire-men-tiktok-instagram.html), as it were, of design thinking.
 - [This blog post](https://jzhao.xyz/posts/agentic-computing) is a deeply inspiring and hopeful reflection on a possible direction for the internet.
 - [This article](https://restofworld.org/2023/buddhist-monk-tiktok-monastic-code/) on "MonkTok" in Cambodia.
 - [A series of claims](https://aviv.medium.com/when-we-change-the-efficiency-of-knowledge-operations-we-change-the-shape-of-society-d48ca870ff5b) on the transformations that could arise from AI-driven enhancements in the efficency of knowledge operations
