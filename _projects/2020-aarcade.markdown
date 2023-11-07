@@ -9,5 +9,5 @@ imgs: []
 external-url: https://aarcade.aaschool.ac.uk/
 external-url-name: Website
 return_path: /projects
-description: 'A (temporary) satirical outlet for students at the Architectural Association.'
+description: 'A satirical outlet for students at the Architectural Association.'
 ---

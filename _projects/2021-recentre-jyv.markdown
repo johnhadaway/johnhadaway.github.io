@@ -9,5 +9,5 @@ imgs: []
 external-url: https://spinunit.org/2021-10-ReCenter-Jyvaskyla
 external-url-name: SPIN Unit
 return_path: /projects
-description: 'Analysed spatial data, facilitated a workshop, and built a website for the City of Jyväskylä.'
+description: 'Analysed spatial data, helped faciliate a workshop, and built a website showing its outcomes for the City of Jyväskylä.'
 ---
