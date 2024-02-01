@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #F0F0F0;
+    color: #000;
+    font-size: 12px;
+}
+
+#map {
+    width: 100%;
+    height: 90vh;
+}
+
+#info-bar {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #F0F0F0;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.column > p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.controls {
+    background-color: #F0F0F0;
+    padding: 0;
+    border: none;
+    display: flex;
+    height: 100%;
+    gap: 10px;
+}
+
+.controls select, .controls label, .controls button {
+    background-color: #F0F0F0;
+    color: #000;
+    font-size: 12px;
+}
+
+.controls button {
+    border: 1px solid #000;
+}
+
+#tooltip {
+    position: absolute; 
+    pointer-events: none; 
+    display: none; 
+    background: #F0F0F0;
+    color: #000;
+    padding: 5px; 
+    border-radius: 4px;
+    z-index: 100;
+}

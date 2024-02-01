@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Car Traffic Volumes - Espoo</title>
+    <link rel="stylesheet" href="main.css">
+    <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="info-bar">
+        <div class="column flex-start">
+            <p>This interactive map visualizes car traffic volumes across Espoo. Select a year to see the car traffic volumes represented on the roads. Click on a road to view how the car traffic volumes change over the years (2018-2022). The original data is accesible via Espoo's WFS interface, <a href="https://kartat.espoo.fi/avoindata/" target="_blank">here</a> (GIS:Autoliikennemäärät).</p>
+            <div class="controls">
+                <label for="yearSlider">Year:</label>
+                <input type="range" id="yearSlider" min="2018" max="2022" value="2022" step="1" oninput="updateTrafficVisualization(value)">
+                <span id="yearLabel">2022</span>
+            </div>
+        </div>
+        <div class="column flex-end">
+            <div id="line-chart"></div>
+        </div>
+    </div>
+    <div id="tooltip"></div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Isochrone analysis - optional-necessary-social distribution - Helsinki region</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v8.2.0/ol.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.2.0/dist/ol.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/@turf/turf"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ol-mapbox-style@12.1.0/dist/olms.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="info-bar">
+        <div class="column">
+            <p>This map shows the distribution of places, by type, within a user-defined travel-time isochrone for Helsinki, Espoo, Vantaa and beyond. Click somehwere to start! The places are categorised according to the type of activities that they primarily host: social, optional, or necessary, following the classification by Gehl. The travel-time isochrones are generated using the <a href="https://openrouteservice.org/dev/#/api-docs" target="_blank">openrouteservice API</a>. The place data was sourced from the Overture Maps release dated October 19, 2023 (<a href="https://docs.overturemaps.org/reference/places/place" target="_blank">places theme</a>, confidence > 0.6). Mappings between the categories in the Overture Maps place data and the social, optional, and necessary categorisations were defined manually, <a href="https://github.com/johnhadaway/perkkaa-analysis-2023/blob/main/data/util/overture-maps-places-gehl-mapping-config.json" target="_blank">here</a>.</p>
+            <div class="controls">
+                <span>
+                    <label for="modeDropdown">Mode:</label>
+                    <select id="modeDropdown">
+                        <option value="foot-walking" selected>Walking</option>
+                        <option value="cycling-regular">Cycling</option>
+                        <option value="driving-car">Driving</option>
+                    </select>
+                </span>
+                <span>
+                    <label for="timeDropdown">Time:</label>
+                    <select id="timeDropdown">
+                        <option value="1">1 min</option>
+                        <option value="5" selected>5 min</option>
+                        <option value="10">10 min</option>
+                        <option value="15">15 min</option>
+                    </select>
+                </span>
+            </div>
+        </div>
+        <div class="column">
+            <div id="barChart1"></div>
+        </div>
+    </div>
+    <div id="tooltip"></div>
+    <script src="main.js"></script>
+</body>
+</html>

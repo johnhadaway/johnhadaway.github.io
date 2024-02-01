@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* main.css */
+html {
+    overflow: hidden;
+}
+
+* {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #f0f0f0;
+}
+
+#content-wrapper {
+    position: fixed;
+    top: 0px;
+    padding: 35px 0 100px 0;
+    width: 50%;
+    height: 95%;
+    overflow: scroll;
+    -ms-overflow-style: none;
+}
+
+#content-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+#content-wrapper > p:first-child {
+    margin-top: 0;
+}
+
+p {
+    color: var(fc-med);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project > a img, .project > img {
+    width: 100%;
+    user-select: none;
+}
+
+.project > a {
+    width: 45%;
+    display: block;
+    user-select: none;
+}
+
+.project > p {
+    width: 100%;
+    margin-top: 6px;
+}
+
+.project > .description, .project > .meta {
+    width: 70%;
+}
+
+.project > .meta, .project > .meta > a {
+    color: #000;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#footer {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    #content-wrapper {
+        width: 95%;
+        -ms-overflow-style: none;
+    }
+
+    .project > a {
+        width: 80%;
+        display: block;
+        user-select: none;
+        touch-action: manipulation;
+    }
+
+    .project > .description, .project > .meta {
+        width: 100%;
+        touch-action: manipulation;
+    }
+}

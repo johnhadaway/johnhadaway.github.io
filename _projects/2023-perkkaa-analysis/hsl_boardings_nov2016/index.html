@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Passenger Boardings Visualization</title>
+    <script src='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@latest/dist/maplibre-gl.css' rel='stylesheet' />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/@turf/turf"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="info-bar">
+        <div class="column flex-start">
+            <p>This map shows the number of boarding passengers on an average weekday (Monday-Friday) in November 2016 by stop, before the HSL's ticketing system was reformed. The dataset is available <a href="https://public-transport-hslhrt.opendata.arcgis.com/datasets/HSLHRT::hsln-nousijam%C3%A4%C3%A4r%C3%A4t/about" target="_blank">here</a>.</p>
+            </p>
+        </div>
+    </div>
+    <div id="tooltip" style="position: absolute; background: rgba(255, 255, 255, 0.8); padding: 5px; border-radius: 5px; display: none;"></div>
+    <script src="main.js"></script>
+</body>
+</html>
