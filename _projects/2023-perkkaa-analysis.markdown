@@ -7,7 +7,7 @@ date: 2023-12-01
 cover-image: /assets/img/2023-perkkaa-analysis/cover.gif
 imgs: []
 external-url: https://johnhadaway.com/projects/2023-perkkaa-analysis/
-external-url-name: Interactive maps
+external-url-name: Project website
 return_path: /projects
-description: Interactive maps highlighting analyses of Perkkaa, Espoo, developed as part of our group's proposed planning intervention during Urban Challenge Studio I (Aalto University).
+description: Interactive maps highlighting analyses of Perkkaa, Espoo, developed as part of our group's proposed planning intervention during Urban Challenge Studio I @ Aalto University.
 ---
