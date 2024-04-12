@@ -11,7 +11,7 @@ external-url:
 publication:
 ---
 
-- [This blog post](https://sariazout.mirror.xyz/7gSSTJ96SEyvXeljymglO3zN4H6DCgVnrNZq8_2NX1A) discusses the diminishing effectiveness of general search engines like Google for nuanced queries, and advocates for the development of boutique search engines. 
+- [This blog post](https://sariazout.mirror.xyz/7gSSTJ96SEyvXeljymglO3zN4H6DCgVnrNZq8_2NX1A) discusses the diminishing effectiveness of general search engines like Google for nuanced queries, and advocates for the development of boutique ones. 
 - [This article](https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/) explores the [rise](https://en.wikipedia.org/wiki/Roman_Empire) and [fall](https://www.nytimes.com/2023/09/15/style/roman-empire-men-tiktok-instagram.html), as it were, of design thinking.
 - [This blog post](https://jzhao.xyz/posts/agentic-computing) is a deeply inspiring and hopeful reflection on a possible direction for the internet.
 - [This article](https://restofworld.org/2023/buddhist-monk-tiktok-monastic-code/) on "MonkTok" in Cambodia.
