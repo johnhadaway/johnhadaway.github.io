@@ -57,6 +57,7 @@ body {
     height: 95%;
     overflow: scroll;
     -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 #content-wrapper::-webkit-scrollbar {
@@ -239,7 +240,7 @@ ol > li > p {
     }
 
     .project > a {
-        width: 80%;
+        width: 60%;
         display: block;
         user-select: none;
         touch-action: manipulation;
