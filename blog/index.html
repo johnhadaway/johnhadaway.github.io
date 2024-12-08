@@ -14,16 +14,6 @@ title: Blog
     <a href="/" class="return-button">Return</a>
     <div class="container" style="max-width: 700px;">
         <div class="blog-grid">
-            {% assign blog_posts = site.static_files | where_exp: "file", "file.path contains '/blog/' and file.path contains 'index.md'" %}
-            {% for post in blog_posts %}
-                {% unless post.path contains '/blog/index.html' %}
-                    <div class="blog-item">
-                        <a href="{{ post.path | replace: '/index.md', '' }}" class="link">
-                            <h2>{{ post.basename | replace: '-', ' ' | capitalize }}</h2>
-                        </a>
-                    </div>
-                {% endunless %}
-            {% endfor %}
         </div>
     </div>
 </body>
