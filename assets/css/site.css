@@ -1,0 +1,38 @@
+:root {
+    --color-text: #333;
+    --color-background: #fff;
+    --color-accent: #0072c0;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+main {
+    max-width: 48rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--color-accent);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
