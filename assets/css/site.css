@@ -1,3 +1,21 @@
+@font-face {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 400 600;
+    font-display: swap;
+    src: url("/assets/fonts/work-sans-latin.woff2") format("woff2");
+}
+
+/* Arial, scaled to the Work Sans metrics. When Work Sans loads, the text stays in place. */
+@font-face {
+    font-family: "Work Sans Fallback";
+    src: local("Arial");
+    size-adjust: 111.4%;
+    ascent-override: 83.49%;
+    descent-override: 21.81%;
+    line-gap-override: 0%;
+}
+
 :root {
     --color-text: #333;
     --color-background: #fff;
@@ -7,7 +25,7 @@
 body {
     margin: 0;
     padding: 24px;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", "Work Sans Fallback", sans-serif;
     font-size: 13px;
     line-height: 20px;
     color: var(--color-text);
